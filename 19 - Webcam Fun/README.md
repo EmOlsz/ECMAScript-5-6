@@ -1,0 +1,1 @@
+Because of webcam usage on this exercise, use localhost to load files
