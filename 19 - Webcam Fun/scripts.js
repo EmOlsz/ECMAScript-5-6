@@ -11,8 +11,7 @@ function getVideo() {
         .then(localMediaStream => {
         video.src = window.URL.createObjectURL(localMediaStream);
     video.play();
-})
-    .catch(err => {
+}).catch(err => {
         window.alert('Allow camera use!');
     console.log(err);
 });
